@@ -6,6 +6,7 @@ project AdaTest is
 
    for Object_Dir use ".\build";
    for Exec_Dir use ".\build";
+   for Main use ("double_1_20.adb");
 
    package Builder is
       for Default_Switches ("ada") use ("-g");
@@ -19,7 +20,7 @@ project AdaTest is
       for Default_Switches ("ada") use ("-g");
    end Linker;
 
-   for Main use ("helloworld.adb");
+   for Source_Files use ("double_1_20.adb");
 
 end AdaTest;
 
