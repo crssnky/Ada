@@ -6,3 +6,7 @@
 
 #build Directory
 /build/*
+!.gitkeep
+
+#tmp file
+*~
